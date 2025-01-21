@@ -7,7 +7,7 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
       <nav>
         <ul>
-          <li><RouterLink to="/">Hono Go Club</RouterLink></li>
+          <li><RouterLink to="/">Hono Go Camp</RouterLink></li>
         </ul>
         <ul>
           <li><RouterLink to="/about">About</RouterLink></li>
