@@ -4,25 +4,33 @@
 <template>
   <div class="form-container">
     <form>
-    <fieldset>
-      <label>
-        First Name
-        <input
-          name="first_name"
-          placeholder="First name"
-          autocomplete="given-name"
-        />
-      </label>
-      <label>
-        Email
-        <input
-          type="email"
-          name="email"
-          placeholder="Email"
-          autocomplete="email"
-        />
-      </label>
-    </fieldset>
+      <fieldset>
+        <label>
+          Name
+          <input
+            name="name"
+            placeholder="Your name"
+            autocomplete="given-name"
+          />
+        </label>
+        <label>
+          Phone
+          <input
+            name="phone"
+            placeholder="Your Phone"
+            autocomplete="tel-national"
+          />
+        </label>
+        <label>
+          Email
+          <input
+            type="email"
+            name="email"
+            placeholder="Email"
+            autocomplete="email"
+          />
+        </label>
+      </fieldset>
 
     <input
       type="submit"
