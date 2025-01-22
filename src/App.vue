@@ -11,7 +11,7 @@ import logo from './assets/logo.jpg'
           <li><RouterLink to="/"><img :src="logo"></RouterLink></li>
         </ul>
         <ul>
-          <li><RouterLink to="/about"><button>About</button></RouterLink></li>
+          <li><RouterLink to="/register"><button>Register Now</button></RouterLink></li>
         </ul>
       </nav>
     </div>
