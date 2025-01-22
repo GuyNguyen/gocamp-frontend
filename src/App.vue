@@ -20,7 +20,7 @@ import logo from './assets/logo.jpg'
   <RouterView />
 </template>
 
-<style>
+<style scoped>
 header {
   line-height: 1.5;
   max-height: 100vh;
@@ -29,14 +29,15 @@ header {
 nav {
   overflow: hidden;
   /* padding-left: 20px; */
-  padding-right: 30px;
+  padding-right: 25px;
+  border-bottom: 1px solid #e2514e33;
 
   width: 100%;
   text-align: center;
 }
 
 img {
-  width: 128px;
+  width: 90px;
   height: auto;
 }
 
