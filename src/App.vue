@@ -11,6 +11,7 @@ import logo from './assets/logo.jpg'
           <li><RouterLink to="/"><img :src="logo"></RouterLink></li>
         </ul>
         <ul>
+          <li><RouterLink to="/about">About</RouterLink></li>
           <li><RouterLink to="/register"><button>Register Now</button></RouterLink></li>
         </ul>
       </nav>
@@ -28,10 +29,8 @@ header {
 
 nav {
   overflow: hidden;
-  /* padding-left: 20px; */
   padding-right: 25px;
   border-bottom: 1px solid #e2514e33;
-
   width: 100%;
   text-align: center;
 }
