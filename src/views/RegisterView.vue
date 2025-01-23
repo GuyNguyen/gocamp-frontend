@@ -1,5 +1,6 @@
 <script setup lang="ts">
-
+import TwoColumns from '../components/TwoColumns.vue'
+import ThreeColumns from '../components/ThreeColumns.vue'
 </script>
 
 <template>
@@ -10,31 +11,8 @@
   <div class="form-container">
     <form>
       <fieldset>
-        <label>
-          Name
-          <input
-            name="name"
-            placeholder="Your name"
-            autocomplete="given-name"
-          />
-        </label>
-        <label>
-          Phone
-          <input
-            name="phone"
-            placeholder="Your Phone"
-            autocomplete="tel-national"
-          />
-        </label>
-        <label>
-          Email
-          <input
-            type="email"
-            name="email"
-            placeholder="Email"
-            autocomplete="email"
-          />
-        </label>
+        <TwoColumns/>
+        <ThreeColumns/>
       </fieldset>
 
       <input
@@ -49,16 +27,17 @@
   .header {
     text-align: center;
     font-size: 50px;
+    padding-top: 80px;
   }
 
   .form-container {
+    padding-top: 50px;
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 50vh;
   }
 
   form {
-    width: 350px;
+    width: 50%;
   }
 </style>
