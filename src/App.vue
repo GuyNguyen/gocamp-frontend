@@ -30,7 +30,7 @@ header {
 nav {
   overflow: hidden;
   padding-right: 25px;
-  border-bottom: 1px solid #e2514e33;
+  border-bottom: 1px solid rgb(1, 127, 192);
   width: 100%;
   text-align: center;
 }
