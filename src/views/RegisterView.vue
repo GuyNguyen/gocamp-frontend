@@ -27,6 +27,7 @@ import ThreeColumns from '../components/ThreeColumns.vue'
   .header {
     text-align: center;
     font-size: 50px;
+    font-weight: bold;
     padding-top: 80px;
   }
 
