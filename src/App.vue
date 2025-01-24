@@ -1,6 +1,7 @@
 <script setup lang="ts">
-import { RouterLink, RouterView } from 'vue-router'
-import logo from './assets/logo.jpg'
+import { RouterLink, RouterView } from 'vue-router';
+import logo from './assets/logo.jpg';
+import Footer from './components/Footer.vue';
 </script>
 
 <template>
@@ -19,6 +20,7 @@ import logo from './assets/logo.jpg'
   </header>
 
   <RouterView />
+  <Footer/>
 </template>
 
 <style scoped>
@@ -29,16 +31,22 @@ header {
 
 nav {
   overflow: hidden;
-  padding-right: 25px;
+  padding-left: 30px;
   border-bottom: 1px solid rgb(1, 127, 192);
   width: 100%;
   text-align: center;
+}
+
+nav li {
+   margin-right: 50px;
+   list-style: none;
+   text-decoration: none;
+   display: inline;
 }
 
 img {
   width: 90px;
   height: auto;
 }
-
 
 </style>
