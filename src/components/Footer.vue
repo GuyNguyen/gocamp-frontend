@@ -18,9 +18,9 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    bottom: 0;
     justify-content: space-between;
     width: 100%;
-    position: fixed;
+    padding-top: 50px;
+    position: relative;
   }
 </style>
